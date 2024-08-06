@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="efect.js" type="module"></script>
+</head>
+<body>
+    <div id="content">
+        <form action="" id="backgr">
+            <fieldset id="calcul">
+                <textarea type="text" id="textarea" readonly wrap="soft"></textarea>
+                <table id="boutonContent">
+                    <tr>
+                        <td>
+                            <div class="bouton">
+                                <button id="btnCE" class="manip"
+                                    style="background-color: rgb(155, 4, 248); color: white;" id="btoun">
+                                    <div class="btnFont">CE</div>
+                                </button class="manip">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="bouton">
+                                <button id="btnParO" class="manip">
+                                    <div class="btnFont">(</div>
+                                </button class="manip">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="bouton">
+                                <button id="btnParF" class="manip">
+                                    <div class="btnFont">)</div>
+                                </button class="manip">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="bouton">
+                                <button id="btnDiv" class="manip">
+                                    <div class="btnFont" style="color: rgb(255, 9, 9);">/</div>
+                                </button class="manip">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="bouton">
+                                <button id="btn7" class="manip">
+                            <div class="btnFont">7</div>
+                                </button class="manip">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="bouton">
+                                <button id="btn8" class="manip">
+                                    <div class="btnFont">8</div>
+                                </button class="manip">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="bouton">
+                                <button id="btn9" class="manip">
+                                <div class="btnFont">9</div>
+                                </button class="manip">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="bouton">
+                                <button id="btnFois" class="manip">
+                                    <div class="btnFont" style="color: rgb(9, 148, 255); font-size: 3.1em;">x</div>
+                                </button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="bouton">
+                                <button id="btn4" class="manip">
+                                    <div class="btnFont">4</div>
+                                </button class="manip">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="bouton">
+                                <button id="btn5" class="manip">
+                                    <div class="btnFont">5</div>
+                                </button>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="bouton">
+                                <button id="btn6" class="manip">
+                                    <div class="btnFont">6</div>
+                                </button class="manip">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="bouton">
+                                <button id="btnMoins" class="manip">
+                                    <div class="btnFont" style=" color: rgb(167, 4, 99);">-</div>
+                                </button class="manip">
+                            </div>
+                        </td>
+                    </tr>   
+                    <tr>
+                        <td>
+                            <div class="bouton">
+                                <button id="btn1" class="manip">
+                                    <div class="btnFont">1</div>
+                                </button class="manip">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="bouton">
+                                <button id="btn2" class="manip">
+                                    <div class="btnFont">2</div>
+                                </button class="manip">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="bouton">
+                                <button id="btn3" class="manip">
+                                    <div class="btnFont">3</div>
+                                </button class="manip">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="bouton">
+                                <button id="btnPlus" class="manip">
+                                    <div class="btnFont" style="color: rgb(255, 83, 9);;">+</div>
+                                </button class="manip">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="bouton">
+                                <button id="btn0" class="manip">
+                                    <div class="btnFont">0</div>
+                                </button class="manip">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="bouton">
+                                <button class="manip">
+                                    <div id="btnVir" class="btnFont">,</div>
+                                </button class="manip">
+                            </div>
+                        </td>
+                        <td>
+                            <button id="btnC" class="btnEgal" style="background-color: rgba(50, 36, 243, 0.588);">
+                                <img src="delete.png">
+                            </button>
+                        </td>
+                        <td>
+                            <button id="egal" class="btnEgal" style=" color: rgba(255, 255, 255, 0.879);
+                                background-color: rgb(36, 243, 36);">
+                                <div class="btnFot">=</div>
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+        <div id="warn" ><h1 style="color:green; background-color: rgba(221, 181, 3, 0.842);border-radius: 5px;">Only binary operations</h1></div>
+    </div>
+</body>
+</html>
